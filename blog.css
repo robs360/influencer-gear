@@ -72,7 +72,7 @@ nav h1{
 .logo_image-3{
    margin-top: 46px;
 }
-@media screen and (min-width:357px) and (max-width:796px){
+@media screen and (min-width:350px) and (max-width:796px){
     nav{
         flex-direction: column;
     }
@@ -164,7 +164,7 @@ margin-top: 120px; text-align: center;
     color: #0A0826;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
-    font-size: 38px;
+    font-size: 2.37rem;
     font-style: normal;
     font-weight: 700;
     line-height: 60px; /* 157.895% */
@@ -184,6 +184,72 @@ line-height: 28px; /* 175% */
     height: 50px; background-color: #E02C6D; margin-top: 20px;
     color: #FFF; border: none; font-size: 1.28rem;
     display: flex; align-items: center; justify-content: center;
+}
+
+
+@media screen and (min-width:350px) and (max-width:1260px)  {
+    
+    .last_container{
+        flex-direction: column-reverse;
+    }
+    .right{
+        width: 99%;
+    }
+    .right h1{
+        font-size: 2.2rem;
+    }
+    .left{
+        width: 75%;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:350px) and (max-width:576px){
+    .right h1{
+        font-size: 1.8rem;
+    }
+    .last_container{
+        width: 90%;
+    }
+    .left{
+        width: 99%;
+    }
+}
+
+
+/*jhbdgcsbadcfkdbjkcfjnsdkjln GBAGBFKBK WAGBKWBDF KJWEDFKJHWE LANDFLHNWEL
+KSJADFJ
+SDFCJWEOJFCOJWE LKWEDFLWELDF JKNDBHHWEIOHDF kjbhduihwe
+jnhedfjhnwe jdoj   kljdijQWD*/
+
+
+
+.foot{
+    width: 100vw;
+    background-color:; display: flex; flex-direction: column;  justify-content: center;
+    margin-top: 100px; height: 260px;
+    align-items: center;
+}
+footer h1{
+    color:#6C6C6C;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+footer h2{
+    color: var(--Text-Gray-300, #D9DBE1);
+font-feature-settings: 'liga' off;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 200% */
+text-align: center;
+}
+.fig{
+    margin-top: 25px;
 }
 
 
