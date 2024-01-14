@@ -105,15 +105,15 @@ nav h1{
 
 
 .main_pic{
-  width: 84%; margin-left: auto; margin-right: auto;
-  display: flex; justify-content: space-between;
+  width: 82%; margin-left: auto; margin-right: auto;
+  display: flex; justify-content: space-evenly;
   flex-wrap: wrap; margin-top: 50px;
 }
 .pic{
     background-color: #FFF;;
     height: 475px; width:330px ;
-    border: 2px solid yellow; 
-    margin-bottom: 15px;
+   
+    margin-bottom: 20px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
 }
@@ -121,11 +121,20 @@ nav h1{
     color: #3A3A3A;
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Poppins;
-font-size: 28px;
+font-size: 1.75rem;
 font-style: normal;
 font-weight: 600;
 line-height: 1.75rem; /* 250% */
 margin-top: 120px; text-align: center;
+}
+.main_pic .heading{
+    margin-top: 0; font-weight: 500;
+    text-align: start; font-size: 1.6rem;
+}
+.main_pic h3{
+    font-weight: 700; 
+    color: gray; font-size:1rem ;
+    line-height: 22px;
 }
 
 
