@@ -1,14 +1,21 @@
 *{
     margin: 0; padding:0 ;
-    font-family:Poppinns; 
+   
+   box-sizing: border-box;
     
+}
+body{
+    font-family:Poppinns;  min-width:352px;
+   
 }
 header{
     background-color: #FFF; width: 98%; color: #3A3A3A; font-weight: 700;
+   
 }
 nav{
     font-weight: 700; display: flex; justify-content: space-around;
-    width: 99%; padding: 40px 2px 0px 0px; align-items: center;
+    width: 98%; padding: 40px 2px 0px 0px; align-items: center;
+   
 }
 ul{
     display: flex; justify-content: space-between;  width: 54%; 
@@ -25,7 +32,7 @@ nav h1{
 }
 .content{
     display: flex; justify-content: space-evenly;
-    margin-top: 100px; width: 98%;
+    margin-top: 100px; width: 98%; 
 }
 .header_tag h1{
     font-family: Poppins;
@@ -60,7 +67,7 @@ nav h1{
     border-top: 1px solid steelblue; margin-top: 80px;
     width: 85%; margin-left: auto; margin-right: auto;
     display: flex; justify-content: space-evenly; flex-wrap: wrap;
-    align-items: center;
+    align-items: center; display: none;
 }
 .x{
     margin-top: 35px;
@@ -73,30 +80,42 @@ nav h1{
    margin-top: 46px;
 }
 @media screen and (min-width:350px) and (max-width:796px){
+    nav li{
+        font-size: 1rem;
+    }
+    nav li img{
+        width: 22px; height: 22px;
+    }
     nav{
         flex-direction: column;
+        align-items: center; justify-content: center;
     }
     .content{
         flex-direction: column-reverse;
     }
     .header_image{
-        width: 94%;
+        width: 88%;
         margin-left: auto; margin-right: auto;
     }
+    
     .header_tag{
-        width: 98%;
+        width: 88%; margin-right: auto; margin-left: auto;
     }
     .header_tag h1{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     nav ul{
-        width: 97%;
+        width: 90%;
+        margin-left: auto; margin-right: auto;
     }
     .header_image img{
         width: 86%; height: 63%;
     }
     .header_tag p,h1{
-        padding-left: 6px;
+        padding-left: 5px;
+    }
+    nav h1{
+        margin-left: auto; margin-right: auto;
     }
 }
 
@@ -105,9 +124,15 @@ nav h1{
 
 
 .main_pic{
-  width: 82%; margin-left: auto; margin-right: auto;
+  width: 82vw; margin-left: auto; margin-right: auto;
   display: flex; justify-content: space-evenly;
-  flex-wrap: wrap; margin-top: 50px;
+  flex-wrap: wrap; margin-top: 50px; 
+}
+.dont{
+    width: 340px; margin-left: auto; margin-right: auto;
+}
+.none{
+    width: 98vw;
 }
 .pic{
     background-color: #FFF;;
@@ -140,7 +165,7 @@ margin-top: 120px; text-align: center;
     
 }
 .btn_contain{
-    width: 74%; height: 50px; 
+    width: 74vw; height: 50px; 
     margin-left: auto; margin-right: auto; position: relative;
 }
 .bttn{
@@ -149,7 +174,7 @@ margin-top: 120px; text-align: center;
     right: 0; border: none; color:#E02C6D font-weight: 600;
 }
 .last_container{
-    width: 78%; margin-left: auto; margin-right: auto; 
+    width: 78vw; margin-left: auto; margin-right: auto; display: none;
     margin-top: 100px; display: flex; justify-content: space-around;
 }
 .left{
@@ -180,7 +205,7 @@ font-weight: 700;
 line-height: 28px; /* 175% */
 }
 .right button{
-    width: 130px;
+    width: 126px;
     height: 50px; background-color: #E02C6D; margin-top: 20px;
     color: #FFF; border: none; font-size: 1.28rem;
     display: flex; align-items: center; justify-content: center;
@@ -224,10 +249,10 @@ jnhedfjhnwe jdoj   kljdijQWD*/
 
 
 .foot{
-    width: 100vw;
-    background-color:; display: flex; flex-direction: column;  justify-content: center;
-    margin-top: 100px; height: 260px;
-    align-items: center;
+    width: 96%;
+    
+    margin-top: 100px; min-height: 260px;
+  
 }
 footer h1{
     color:#6C6C6C;
@@ -251,5 +276,9 @@ text-align: center;
 .fig{
     margin-top: 25px;
 }
-
+@media screen and (min-width:348px) and (max-width:380px){
+    footer h1{
+        font-size: 1.7rem;
+    }
+}
 
